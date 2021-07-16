@@ -11,9 +11,7 @@ with open(file_to_load) as election_data:
     # To do: read and analyze the data here.
     # Read the file object with the reader function.
     file_reader=csv.reader(election_data)
-      # Print the header row.
-    headers = next(file_reader)
-    print(headers)
+      
   
 # 1. Total number of votes cast
 # 2. A complete list of candidates who received votes
