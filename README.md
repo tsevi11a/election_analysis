@@ -10,7 +10,7 @@ This project automates the process of analyzing election results for an individu
 ## Election-Audit Results
 The complete python script can be found [here](PyPoll_Challenge.py).
 
-In short, this code loads the election data from a CSV file which contains a table listing the ballot ID, where it was cast (i.e. the county), and the candidate that was voted for. The code then iterates through each row and extracts the county name and candidate name and tallies up the number of votes in each county and the total votes for each candidate. The results are then printed to the terminal and saved to a text file [(election_results.txt)](analysis/election_results.txt). 
+In short, this code loads the election data from a CSV file which contains a table listing the ballot ID, where it was cast (i.e. the county), and the candidate that was voted for. The code then iterates through each row and extracts the county name and candidate name and tallies up the number of votes in each county and the total votes for each candidate. The results are then printed to the terminal and saved to a text file [(election_results.txt)](Analysis/election_results.txt). 
 
 ### Summary of Results
 
