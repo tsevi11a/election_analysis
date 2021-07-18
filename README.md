@@ -31,7 +31,7 @@ In short, this code loads the election data from a CSV file which contains a tab
       * The winner of the election was Diana DeGette who won 73.8% of the total votes. 
 
 ## Election-Audit Summary
-The advantage of having this script to automate the audit process is that it can then be used to audit other elections (e.g. elections in other precincts). For example, by simply modifying the file to load (highlighted below), we can run the same code and quickly get the results for different precincts (assuming that the election data for other precincts is presented in the same tabular format).
+The advantage of having this script to automate the audit process is that it can then be used to audit other elections (e.g. elections in other precincts). For example, by simply replacing the file to load (highlighted below) with the election data from another precinct, we can run the same code and quickly get the results (assuming that the election data for other precincts is presented in the same tabular format).
 ```json
 file_to_load = os.path.join("Resources", "election_results.csv")
 ```
